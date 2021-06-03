@@ -1,0 +1,50 @@
+:root {
+  --white: #fff;
+  --violet: #ab5cdb;
+  --dark: #1b1937;
+}
+
+.content-wrapper {
+  width: 327px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  .content-wrapper {
+    width: 1110px;
+  }
+}
