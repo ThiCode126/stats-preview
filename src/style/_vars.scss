@@ -2,6 +2,7 @@
   --white: #fff;
   --violet: #ab5cdb;
   --dark: #1b1937;
+  --back: #0a0c1c;
 }
 
 .content-wrapper {
@@ -16,6 +17,7 @@ body {
   font-size: 15px;
   line-height: 25px;
   color: var(--white);
+  background: var(--back);
 }
 
 h1 {
@@ -38,6 +40,7 @@ h3 {
   line-height: 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 /**

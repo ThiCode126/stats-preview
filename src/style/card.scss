@@ -1,0 +1,66 @@
+.card {
+  margin: 88px 0;
+
+  .in-section {
+    background: var(--dark);
+    border-radius: 8px;
+
+    .text-block {
+      padding: 40px 32px 32px 31px;
+      text-align: center;
+
+      h1 {
+        span {
+          color: var(--violet);
+        }
+      }
+
+      p {
+        margin: 16px 0 40px;
+        opacity: 0.75;
+      }
+
+      .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+  }
+}
+
+/**
+* ? DeskTop
+*/
+@media (min-width: 1440px) {
+  .card {
+    margin: 177px 0;
+
+    .in-section {
+      display: flex;
+      flex-direction: row-reverse;
+
+      .text-block {
+        padding: 71px 95px 59px 72px;
+        text-align: left;
+
+        p {
+          margin: 25px 0 72px;
+        }
+
+        .footer {
+          display: flex;
+          gap: 0;
+
+          div:first-child {
+            margin-right: 63px;
+          }
+
+          div:last-child {
+            margin-left: 60px;
+          }
+        }
+      }
+    }
+  }
+}

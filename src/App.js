@@ -1,8 +1,16 @@
+import Card from "./Components/Card";
+
+import useWindowSize from "./utils/useWindowSize";
+
 
 function App() {
+
+  const size = useWindowSize();
+
+
   return (
     <>
-      Stats preview card component
+      <Card device={size.device} />
     </>
   );
 }
